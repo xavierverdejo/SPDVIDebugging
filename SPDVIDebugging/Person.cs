@@ -11,7 +11,7 @@ namespace SPDVIDebugging
         public string FunkyNameBuilder()
         {
             string output = "";
-            for(int i = 0; i<=FirstName.Length; i++)
+            for(int i = 0; i<FirstName.Length; i++)
             {
                 if(i%2 == 0)
                 {
